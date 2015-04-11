@@ -7813,6 +7813,8 @@ var Kifu = React.createClass({displayName: "Kifu",
 												}
 											}.bind(this)}, 
 												React.createElement("option", {value: "NaN"}, "自動更新しない"), 
+												React.createElement("option", {value: "5"}, "自動更新5秒毎"), 
+												React.createElement("option", {value: "10"}, "自動更新10秒毎"), 
 												React.createElement("option", {value: "30"}, "自動更新30秒毎"), 
 												React.createElement("option", {value: "60"}, "自動更新1分毎"), 
 												React.createElement("option", {value: "180"}, "自動更新3分毎")
